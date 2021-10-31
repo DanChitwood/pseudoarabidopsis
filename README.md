@@ -1,2 +1,2 @@
 # pseudoarabidopsis
-some fun with trying to interpolate leaf series in arabidopsis
+some fun with trying to interpolate leaf series in arabidopsis. a leaf series from a single rosette of Col-0 with 11 leaves is fitted with 100 equidistant pseudo-landmarks around each leaf and polynomials are used to fit curves to create a continuous model of x and y value changes across leaves of the rosette. the modeled growing leaf is then used in a simulation of arabidopsis growth, seprating each growing leaf by the golden angle. python is used throughout except for procrustes alignment of landmarks, in which the shapes package by Dryden in R is used. some bugs exist, but this was just for fun! enjoy!
